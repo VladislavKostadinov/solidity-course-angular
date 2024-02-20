@@ -1,0 +1,15 @@
+<h1 class="title">MetaMask BlockChain Lottery Example</h1>
+<div class="functionBtns">
+  <button
+    class="btn"
+    [disabled]="disabledDueMetamask"
+    (click)="connectWallet()"
+  >
+    Connect
+  </button>
+  <button class="btn" (click)="checkAccount()">Connected Account</button>
+</div>
+<p class="infoText">{{ connectedAccount }}</p>
+<div class="enter">
+  <a routerLink="./enter"><button>Lottery</button></a>
+</div>

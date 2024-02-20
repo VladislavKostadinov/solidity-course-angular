@@ -1,0 +1,22 @@
+.title {
+  text-align: center;
+}
+
+.tableTitle {
+  text-align: center;
+  color: goldenrod;
+}
+
+.infoTable {
+  border: 1px solid black;
+  width: 35%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.raffleFunctions {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin: 1rem auto;
+}

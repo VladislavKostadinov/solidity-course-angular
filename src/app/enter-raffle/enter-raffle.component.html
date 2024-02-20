@@ -1,0 +1,12 @@
+<h1 class="title">Lottery</h1>
+
+<p class="tableTitle">Information Table</p>
+<div class="infoTable">
+  <div *ngIf="raffleAddress">Entrance Fee: {{ formatedEntranceFee }} ETH</div>
+  <div>Number of players: {{ numberOfPlayers }}</div>
+  <div>Recent winner: {{ recentWinner }}</div>
+</div>
+<div class="raffleFunctions">
+  <button routerLink="/">Home</button>
+  <button (click)="requestAccount()">Enter Raffle</button>
+</div>
